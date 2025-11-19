@@ -8,4 +8,5 @@ export async function getJson() {
     } else throw new Error("response not ok");
 
     return data;
+
 }
