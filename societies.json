@@ -1,0 +1,139 @@
+{
+  "colleges": [
+    {
+      "collegeName": "Interdisciplinary Studies",
+      "societies": [
+        {
+          "name": "Interdisciplinary Studies Society (IDS)",
+          "weekday": "Tuesday",
+          "time": "6:00-7:00",
+          "room": "MC 176C",
+          "link": "https://my.byui.edu/groups/interdisciplinary-society-sis/events"
+        }
+      ]
+    },
+    
+    {
+      "collegeName": "College of Physical Sciences & Engineering",
+      "societies": [
+        {
+          "name": "The Society for the Advancement of Material and Process Engineering (SAMPE)",
+          "weekday": "",
+          "time": "",
+          "room": "",
+          "link": "https://my.byui.edu/groups/the-society-for-the-advancement-of-material-and-process-engineering-sampe-"
+        },
+        {
+          "name": "Amateur Radio Society",
+          "weekday": "Wednesday",
+          "time": "5:30-6:30",
+          "room": "STC 243",
+          "link": "https://my.byui.edu/groups/amateur-radio-society/dashboard"
+        },
+        {
+          "name": "American Society of Civil Engineers",
+          "weekday": "Thursday",
+          "time": "5:30-6:30",
+          "room": "ETC 137",
+          "link": "https://my.byui.edu/groups/american-society-of-civil-engineers/events"
+        },
+        {
+          "name": "American Society of Mechanical Engineers (ASME)",
+          "weekday": "",
+          "time": "",
+          "room": "",
+          "link": "https://my.byui.edu/groups/american-society-of-mechanical-engineers-asme/dashboard"
+        },
+        {
+          "name": "American Welding Society",
+          "weekday": "",
+          "time": "",
+          "room": "",
+          "link": "https://my.byui.edu/groups/american-welding-society"
+        },
+        {
+          "name": "Astronomical Society",
+          "weekday": "Wednesday",
+          "time": "6:00-7:00",
+          "room": "ROM 128",
+          "link": "https://my.byui.edu/groups/astronomical-society/dashboard"
+        },
+        {
+          "name": "Bio(Chem)2 Society",
+          "weekday": "",
+          "time": "",
+          "room": "",
+          "link": "https://my.byui.edu/groups/biochem2-society/dashboard"
+        }
+      ]
+    },
+    {
+      "collegeName": "College of Language & Letters",
+      "societies": [
+        {
+          "name": "English Academic Society",
+          "weekday": "Thursday Bi-Weekly",
+          "time": "5:30-6:30",
+          "room": "Rigby 170 Foyer",
+          "link": "https://my.byui.edu/groups/english-academic-society/dashboard"
+        },
+        {
+          "name": "Humanities Society",
+          "weekday": "Wednesday",
+          "time": "5:00-6:00",
+          "room": "Taylor 247 Lecture Hall",
+          "link": "https://my.byui.edu/groups/humanities-society/dashboard"
+        },
+        {
+          "name": "Peacebuilding Society",
+          "weekday": "Thursday Bi-Weekly",
+          "time": "11:30-12:30",
+          "room": "Ricks 178 Classroom",
+          "link": "https://my.byui.edu/groups/peacebuilding-society/dashboard"
+        },
+        {
+          "name": "Philosophical Society",
+          "weekday": "Thursday",
+          "time": "6:00-7:00",
+          "room": "Taylor 130 Classroom",
+          "link": "https://my.byui.edu/groups/philosophical-society/dashboard"
+        },
+        {
+          "name": "International Studies Society",
+          "weekday": "Variable - Look on website",
+          "time": "Variable - Look on website",
+          "room": "Variable - Look on website",
+          "link": "https://my.byui.edu/groups/international-studies-society/dashboard"
+        },
+        {
+          "name": "Political Affairs Society / Political Science Honor Society",
+          "weekday": "TBA",
+          "time": "TBA",
+          "room": "TBA",
+          "link": "https://my.byui.edu/groups/pi-sigma-alpha-political-affairs-department-society/dashboard"
+        },
+        {
+          "name": "Pre-Law Society",
+          "weekday": "Variable - Look on website",
+          "time": "Variable - Look on website",
+          "room": "Variable - Look on website",
+          "link": "https://my.byui.edu/groups/pre-law-society/dashboard"
+        },
+        {
+          "name": "Phi Alpha Theta National History Society",
+          "weekday": "TBA",
+          "time": "TBA",
+          "room": "TBA",
+          "link": "https://my.byui.edu/groups/phi-alpha-theta-national-history-society/dashboard"
+        },
+        {
+          "name": "Drone & Geospatial Society",
+          "weekday": "Tuesday",
+          "time": "4:30-5:30",
+          "room": "Romney 277 Classroom",
+          "link": "https://my.byui.edu/groups/uasdrone-society/dashboard"
+        }
+      ]
+    }
+  ]
+}
