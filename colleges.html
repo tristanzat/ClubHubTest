@@ -1,40 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Colleges</title>
-    <link href="css/colleges.css" rel="stylesheet" />
-    <script src="js/colleges.js" defer></script>
-  </head>
-  <body>
-    <header style="height: 100px"></header>
-    <main class="colleges">
-      <div class="title-container">
-        <h1>Societies by College at BYU-Idaho</h1>
-        <form class="college-search-form" method="get" action="">
-          <input class="search-input" type="text" name="q" placeholder="Search ..." />
-          <button class="search-btn">
-              <svg class="icon">
-                <use xlink:href="/images/sprite.symbol.svg#search"></use>
-              </svg>
-          </button>
-        </form>
-      </div>
 
-      <div class="colleges-container">
-        <section class="college">
-          <details name="current-details">
-            <summary>College of Physical Sciences & Engineering</summary>
-            <ul class="society-list">
-              <li class="society-link"><a href="">SWE</a></li>
-              <li class="society-link"><a href="">Data Science Society</a></li>
-              <li class="society-link"><a href="">Amateur Radio Society</a></li>
-            </ul>
-          </details>
-        </section>
-      </div>
-    </main>
-    <footer></footer>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colleges</title>
+  <link href="css/colleges.css" rel="stylesheet" />
+  <script src="js/colleges.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/byui_logo.webp" alt="School Logo" width="130px" height="100px">
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="colleges.html">Colleges</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <main class="colleges">
+    <div class="title-container">
+      <h1>Societies by College at BYU-Idaho</h1>
+      <form class="college-search-form" method="get" action="">
+        <input class="search-input" type="text" name="q" placeholder="Search ..." />
+        <button class="search-btn">
+          <svg class="icon">
+            <use xlink:href="/images/sprite.symbol.svg#search"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+
+    <div class="colleges-container">
+      <section class="college">
+        <details name="current-details">
+          <summary>College of Physical Sciences & Engineering</summary>
+          <ul class="society-list">
+            <li class="society-link"><a href="">SWE</a></li>
+            <li class="society-link"><a href="">Data Science Society</a></li>
+            <li class="society-link"><a href="">Amateur Radio Society</a></li>
+          </ul>
+        </details>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="colleges.html">Colleges</a>
+      <a href="about.html">About</a>
+    </nav>
+    <div>
+      Brigham Young University–Idaho<br>
+      Rexburg, Idaho 83460<br>
+      United States
+    </div>
+  </footer>
+</body>
+
 </html>

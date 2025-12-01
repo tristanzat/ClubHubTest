@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <title>About | Club Hub</title>
@@ -97,12 +98,13 @@
       margin-bottom: 20px;
     }
 
-    .mission, .photo {
+    .mission,
+    .photo {
       flex: 1;
       background: #ffffff;
       border-radius: 12px;
       padding: 20px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     }
 
     .mission p {
@@ -112,7 +114,7 @@
     .team-image {
       max-width: 100%;
       border-radius: 12px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
     /* Team members grid */
@@ -120,7 +122,7 @@
       background: #ffffff;
       border-radius: 12px;
       padding: 20px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     }
 
     .team-members ul {
@@ -138,7 +140,7 @@
       padding: 8px;
       text-align: center;
       font-size: 14px;
-      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
     }
 
     /* Bottom navigation bar */
@@ -176,19 +178,21 @@
       }
     }
   </style>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <!-- Top bar with logo and navigation -->
   <header>
-    <div class="top-nav">
-      <div class="logo-box">Logo</div>
-      <nav class="nav-links">
-        <a href="#">Home</a>
-        <a href="#">Colleges</a>
-        <a href="#">About</a>
-      </nav>
+    <div class="logo">
+      <img src="images/byui_logo.webp" alt="School Logo" width="130px" height="100px">
     </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="colleges.html">Colleges</a>
+      <a href="about.html">About</a>
+    </nav>
   </header>
 
   <!-- Banner / hero section -->
@@ -239,12 +243,18 @@
 
   <!-- Bottom navigation bar -->
   <footer>
-    <nav class="bottom-nav">
-      <a href="#">Home</a>
-      <a href="#">Colleges</a>
-      <a href="#">About</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="colleges.html">Colleges</a>
+      <a href="about.html">About</a>
     </nav>
+    <div>
+      Brigham Young University–Idaho<br>
+      Rexburg, Idaho 83460<br>
+      United States
+    </div>
   </footer>
 
 </body>
+
 </html>
