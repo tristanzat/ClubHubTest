@@ -1,0 +1,12 @@
+header,
+footer {
+    text-align: center;
+}
+
+header nav,
+footer nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}

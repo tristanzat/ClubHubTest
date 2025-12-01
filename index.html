@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <title>Society Hub</title>
@@ -127,7 +128,7 @@
       background: #ffffff;
       border-radius: 12px;
       padding: 16px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     }
 
     .society-card h3 {
@@ -173,24 +174,27 @@
       .hero-title {
         font-size: 28px;
       }
+
       .nav-links {
         gap: 12px;
       }
     }
   </style>
+  <script src="js/script.js" defer></script>
 </head>
+
 <body>
 
   <!-- Top bar with logo and navigation -->
   <header>
-    <div class="top-nav">
-      <div class="logo-box">Logo</div>
-      <nav class="nav-links">
-        <a href="https://github.com/Jacob-Buxton13/ClubHub/blob/1f86e65f8356fe80ea6a4ee0745e4a183eb95340/index.html">Home</a>
-        <a href="https://github.com/Jacob-Buxton13/ClubHub/blob/c2eb876b322784abf4883529d5151cbbe279bfe2/colleges.html">Colleges</a>
-        <a href="https://github.com/Jacob-Buxton13/ClubHub/blob/cfa860fa56992d4790bb0258360ba09fae1c0118/about.html">About</a>
-      </nav>
+    <div class="logo">
+      <img src="images/byui_logo.webp" alt="School Logo" width="130px" height="100px">
     </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="colleges.html">Colleges</a>
+      <a href="about.html">About</a>
+    </nav>
   </header>
 
   <!-- Banner / hero section -->
@@ -207,7 +211,7 @@
     <div class="search-wrapper">
       <div class="search-box">
         <span>🔍</span>
-        <input type="text" placeholder="Search societies..." />
+        <input id="searchInput" type="text" placeholder="Search societies..." />
       </div>
     </div>
 
@@ -239,18 +243,18 @@
 
   <!-- Bottom navigation bar -->
   <footer>
-    <nav class="bottom-nav">
-      <a href="https://github.com/Jacob-Buxton13/ClubHub/blob/1f86e65f8356fe80ea6a4ee0745e4a183eb95340/index.html">Home</a>
-      <a href="https://github.com/Jacob-Buxton13/ClubHub/blob/c2eb876b322784abf4883529d5151cbbe279bfe2/colleges.html">Colleges</a>
-      <a href="https://github.com/Jacob-Buxton13/ClubHub/blob/cfa860fa56992d4790bb0258360ba09fae1c0118/about.html">About</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="colleges.html">Colleges</a>
+      <a href="about.html">About</a>
     </nav>
+    <div>
+      Brigham Young University–Idaho<br>
+      Rexburg, Idaho 83460<br>
+      United States
+    </div>
   </footer>
 
 </body>
+
 </html>
-
-
-
-
-
-
